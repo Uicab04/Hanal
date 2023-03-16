@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>Chunhufood | Administración</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Aqui va una breve descripción de la pagina>
+		<meta name="keywords" content="busca, encuentra, anunciate" />
+		<meta name="author" content="alcode" />
+    <!-- Bootstrap core CSS -->
+    <link href="src/busc/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/busc/css/offcanvas.css" rel="stylesheet">
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="src/busc/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/busc/css/offcanvas.css" rel="stylesheet">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!--Alertas-->
+    <link href="alertifyjs/css/alertify.css" rel="stylesheet">
+  
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/signin.css" rel="stylesheet"> -->
+    </head>
+
+
+<body class="bg-gradient-">
+
+    <div class="container">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <!-- Nested Row within Card Body -->
+                <div class="row">
+                    <!-- <img src="assets/img/about.jpg" width="200" height="200" /> -->
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="h4 text-gray-900 mb-4">¡Crear una cuenta!</h1>
+                            </div>
+                            <form class="user" name="registroUsuario">
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user" id="nombre" name="nombre" placeholder="Nombre">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control form-control-user" id="apellidos" name="apellidos" placeholder="Apellidos">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-user" id="email" name="email" placeholder="Correo electrónico">
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="password" class="form-control form-control-user" id="password1" id="password1" placeholder="Contraseña">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="password" class="form-control form-control-user" id="password2" id="password2" placeholder="Repetir contraseña">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="button" value="Registrar cuenta" onclick="validarRegistroUsuario()" class="btn btn-primary btn-user btn-block">
+                                </div>
+                                <p class="mt-5 mb-3 text-muted">&copy; 2022 | www.chunhufood.com</p>
+                                <hr>
+                                
+                            </form>
+                            <div id="registrando">
+                            <hr>
+                            <div class="text-center">
+                                <a class="small" href="forgot-password.html">¿Olvidaste tu contraseña?</a>
+                            </div>
+                            <div class="text-center">
+                                <a class="small" href="login.html">¿Ya tienes una cuenta? Inicia sesión!</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!--Scripts-->
+    <script src="scripts/ajaxU.js"></script>
+    <script src="scripts/validacionU.js"></script>
+    <script src="alertifyjs/alertify.min.js"></script>
+
+</body>
+
+</html>

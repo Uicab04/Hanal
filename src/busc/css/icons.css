@@ -1,0 +1,721 @@
+@font-face {
+    font-family: 'linecons';
+    src: url('../fonts/linecons/linecons.eot');
+    src: url('../fonts/linecons/linecons.eot?#iefix') format('embedded-opentype'), url('../fonts/linecons/linecons.woff') format('woff'), url('../fonts/linecons/linecons.ttf') format('truetype'), url('../fonts/linecons/linecons.svg#linecons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iconp:before {
+    font-family: 'linecons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 0.4em;
+    font-size: 1.4em;
+    -webkit-font-smoothing: antialiased;
+    color: inherit !important;
+}
+
+.iconfa:before {
+    speak: none;
+    font-style: normal;
+    font-weight: inherit;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.4em;
+    font-size: 1.4em;
+    -webkit-font-smoothing: antialiased;
+    color: inherit !important;
+}
+
+.iconp-female:before {
+    content: "\f182";
+}
+
+.iconp-male:before {
+    content: "\f183";
+}
+
+.iconp-arrow-left:before {
+    content: "\e032";
+}
+
+.iconp-arrow-left-2:before {
+    content: "\e034";
+}
+
+.iconp-arrow-left-3:before {
+    content: "\e036";
+}
+
+.iconp-arrow-left-4:before {
+    content: "\e038";
+}
+
+.iconp-arrow-right:before {
+    content: "\e035";
+}
+
+.iconp-arrow-right-2:before {
+    content: "\e037";
+}
+
+.iconp-arrow-right-3:before {
+    content: "\e039";
+}
+
+.iconp-arrow-right-4:before {
+    content: "\e033";
+}
+
+.iconp-phone:before {
+    content: "\e000";
+}
+
+.iconp-news:before {
+    content: "\e001";
+}
+
+.iconp-photo:before {
+    content: "\e002";
+}
+
+.iconp-shop:before {
+    content: "\e003";
+}
+
+.iconp-wallet:before {
+    content: "\e004";
+}
+
+.iconp-t-shirt:before {
+    content: "\e005";
+}
+
+.iconp-heart:before {
+    content: "\e006";
+}
+
+.iconp-cloud:before {
+    content: "\e007";
+}
+
+.iconp-display:before {
+    content: "\e008";
+}
+
+.iconp-diamond:before {
+    content: "\e009";
+}
+
+.iconp-banknote:before {
+    content: "\e00a";
+}
+
+.iconp-data:before {
+    content: "\e00b";
+}
+
+.iconp-music:before {
+    content: "\e00c";
+}
+
+.iconp-location:before {
+    content: "\e00d";
+}
+
+.iconp-star:before {
+    content: "\e00e";
+}
+
+.iconp-tv:before {
+    content: "\e00f";
+}
+
+.iconp-eye:before {
+    content: "\e010";
+}
+
+.iconp-megaphone:before {
+    content: "\e011";
+}
+
+.iconp-study:before {
+    content: "\e012";
+}
+
+.iconp-bubble:before {
+    content: "\e013";
+}
+
+.iconp-sound:before {
+    content: "\e014";
+}
+
+.iconp-video:before {
+    content: "\e015";
+}
+
+.iconp-stack:before {
+    content: "\e016";
+}
+
+.iconp-lab:before {
+    content: "\e017";
+}
+
+.iconp-food:before {
+    content: "\e018";
+}
+
+.iconp-cup:before {
+    content: "\e019";
+}
+
+.iconp-trash:before {
+    content: "\e01a";
+}
+
+.iconp-user:before {
+    content: "\e01b";
+}
+
+.iconp-key:before {
+    content: "\e01c";
+}
+
+.iconp-fire:before {
+    content: "\e01d";
+}
+
+.iconp-clip:before {
+    content: "\e01e";
+}
+
+.iconp-mail:before {
+    content: "\e01f";
+}
+
+.iconp-search:before {
+    content: "\e020";
+}
+
+.iconp-settings:before {
+    content: "\e021";
+}
+
+.iconp-like:before {
+    content: "\e022";
+}
+
+.iconp-calendar:before {
+    content: "\e023";
+}
+
+.iconp-camera:before {
+    content: "\e024";
+}
+
+.iconp-tag:before {
+    content: "\e025";
+}
+
+.iconp-note:before {
+    content: "\e026";
+}
+
+.iconp-clock:before {
+    content: "\e027";
+}
+
+.iconp-lock:before {
+    content: "\e028";
+}
+
+.iconp-vynil:before {
+    content: "\e029";
+}
+
+.iconp-truck:before {
+    content: "\e02a";
+}
+
+.iconp-paperplane:before {
+    content: "\e02b";
+}
+
+.iconp-bulb:before {
+    content: "\e02c";
+}
+
+.iconp-pen:before {
+    content: "\e02d";
+}
+
+.iconp-params:before {
+    content: "\e02e";
+}
+
+.iconp-world:before {
+    content: "\e02f";
+}
+
+
+/*
+.iconp-download {
+    position: relative;
+}
+ */
+
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+
+/*http://astronautweb.co/snippet/font-awesome/*/
+
+
+/*http://www.webvisionsevent.com/unicode-icons/*/
+
+
+/*https://fontawesome.com/icons?d=gallery&m=free*/
+
+
+/*https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp*/
+
+.iconp-fa-exclamation-triangle:before {
+    content: "\f071";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.fa-solid fa-location-check:before {
+    content: "\f606";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-download:before {
+    content: "\f019";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-ellipsis-v:before {
+    content: "\f142";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Restaurar*/
+
+.iconp-fa-history:before {
+    content: "\f1da";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Reciclaje*/
+
+.iconp-fa-recycle:before {
+    content: "\f1b8";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Copiar*/
+
+.iconp-fa-files-o:before {
+    content: "\f0c5";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*aguja*/
+
+.iconp-fa-thumb-tack:before {
+    content: "\f08d";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-plus-square:before {
+    content: "\f055";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-arrow-circle-up:before {
+    content: "\f0aa";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-arrow-circle-down:before {
+    content: "\f0ab";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-facebook-square:before {
+    content: "\f082";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*manita arriba*/
+
+.iconp-fa-thumbs-o-up:before {
+    content: "\f087";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*manita abajo*/
+
+.iconp-fa-thumbs-o-down:before {
+    content: "\f088";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*cerrar sesión2*/
+
+.iconp-buenamadre:before {
+    content: "\f011";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*cerrar sesión*/
+
+.iconp-fa-power-off:before {
+    content: "\f011";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*usuarios (sucursales)*/
+
+.iconp-fa-users:before {
+    content: "\f0c0";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Cuadro seleccionar*/
+
+.iconp-fa-square-o:before {
+    content: "\f096";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Cuadro seleccionado*/
+
+.iconp-fa-check-square-o:before {
+    content: "\f046";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Tijeras*/
+
+.iconp-fa-scissors:before {
+    content: "\f0c4";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Giro izquierda*/
+
+.iconp-fas-fa-undo:before {
+    content: "\f0e2";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Giro derecha*/
+
+.iconp-fas-fa-redo:before {
+    content: "\f01e";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Abrir Folder*/
+
+.iconp-fa-folder-open:before {
+    content: "\f07c";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*casilla editar*/
+
+.iconp-fa-pencil-square-o:before {
+    content: "\f044";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*casilla editarRegresar*/
+
+.iconp-fa-share-square-o:before {
+    content: "\f045";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Carita triste*/
+
+.iconp-fa-frown-o:before {
+    content: "\f119";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*instagram*/
+
+.iconp-fa-instagram:before {
+    content: "\f16d";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*twitter*/
+
+.iconp-fa-twitter-square:before {
+    content: "\f081";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*llamada*/
+
+.iconp-fa-phone-square:before {
+    content: "\f098";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*whatsapp*/
+
+.iconp-fa-whatsapp:before {
+    content: "\f232";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Guardar*/
+
+.iconp-fa-floppy-o:before {
+    content: "\f0c7";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Lista Albums*/
+
+.iconp-fa-th-list:before {
+    content: "\f00b";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Albums*/
+
+.iconp-fa-th-large:before {
+    content: "\f009";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Nueva foto*/
+
+.iconp-fa-file-image-o:before {
+    content: "\f1c5";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Mas fotos*/
+
+.iconp-fa-th:before {
+    content: "\f00a";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Inicio*/
+
+.iconp-fa-home:before {
+    content: "\f015";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Subir*/
+
+.iconp-fa-upload:before {
+    content: "\f093";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Cancelar*/
+
+.iconp-fa-times:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-credit-card:before {
+    content: "\f09d";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-money:before {
+    content: "\f0d6";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Favorito Si*/
+
+.iconp-fa-heart:before {
+    content: "\f004";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Datos*/
+
+.fa-user-editt {
+    content: "\f4da";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Facebook Messenger*/
+
+.fa-facebook-messenger {
+    content: "\f39f";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+
+/*Algo*/
+
+.fa-question-circle {
+    content: "\f059";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-refresh:before {
+    content: "\f021";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-map-signs:before {
+    content: "\f277";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.iconp-fa-arrow-circle-left:before {
+    content: "\f0a8";
+    font-family: FontAwesome;
+    text-decoration: inherit;
+}
+
+.sizeAdd {
+    font-size: 2em;
+}
+
+.sizeAdd:hover {
+    color: #000;
+    /* font-size: 2.1em; */
+    cursor: pointer;
+}
+
+.sizeAddIcon {
+    font-size: 1.1em;
+}
+
+.sizeAddIcon:hover {
+    color: #000;
+    /* font-size: 1.2em; */
+    cursor: pointer;
+}
+
+#espacioMini {
+    height: 10px;
+    width: 10px;
+}
+
+.favoritoSi {
+    color: #ffd800;
+}
+
+.sizeAwesome {
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.3;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 0.5em;
+    font-size: 1.4em;
+    -webkit-font-smoothing: antialiased;
+    color: inherit !important;
+}

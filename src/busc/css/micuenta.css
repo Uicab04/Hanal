@@ -1,0 +1,89 @@
+@media screen and (max-width: 1680px) {
+    #showonmd {
+        display: block;
+    }
+    #showonsm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #showonmd {
+        display: block;
+    }
+    #showonsm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #showonmd {
+        display: block;
+    }
+    #showonsm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #showonmd {
+        display: none;
+    }
+    #showonsm {
+        display: inline-block;
+    }
+    .mar2 {
+        font-size: 1em !important;
+        margin-right: 1px !important;
+    }
+    .marfa {
+        font-size: 1em !important;
+        margin-right: 3px !important;
+    }
+    #menu {
+        width: 18.5em !important;
+    }
+    #header h3 {
+        margin-top: 0.5rem !important;
+    }
+    #hanging-icons {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .font-size-9 {
+        font-size: 1.5rem !important;
+    }
+    article #imagen {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    article #imagen {
+        width: 50% !important;
+    }
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.28);
+}
+
+.limiteTextoDanger {
+    color: #ff0a0a;
+}
+
+.limiteTextoWarning {
+    color: #ff850a;
+}
+
+.limiteTextoSuccess {
+    color: #36b0f7;
+}
+
+.backTextLimitDanger {
+    background-color: red;
+}
+
+.backTextLimitSuccess {
+    background-color: white;
+}

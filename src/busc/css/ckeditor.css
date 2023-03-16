@@ -1,0 +1,50 @@
+.demo-update__controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.demo-update__chart {
+    margin-right: 1em;
+}
+
+.demo-update__chart__circle {
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+.demo-update__chart__characters {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.demo-update__words {
+    flex-grow: 1;
+    opacity: .5;
+}
+
+.demo-update__limit-close .demo-update__chart__circle {
+    stroke: hsl( 30, 100%, 52%);
+}
+
+.demo-update__limit-exceeded .ck.ck-editor__editable_inline {
+    background: hsl( 0, 100%, 97%);
+}
+
+.demo-update__limit-exceeded .demo-update__chart__circle {
+    stroke: hsl( 0, 100%, 52%);
+}
+
+.demo-update__limit-exceeded .demo-update__chart__characters {
+    fill: hsl( 0, 100%, 52%);
+}
+
+ol li {
+    padding-left: 0.25em;
+    font-size: 1.25rem;
+}
+
+ul li {
+    /* padding-left: 0.25em; */
+    /* font-size: 1.25rem; */
+}

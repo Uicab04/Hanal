@@ -1,0 +1,80 @@
+body {
+   background: #000;
+}
+.post > header .title{
+   background-color: #333333;
+   color: #fff;
+}
+.post > header .meta{
+   background-color: #333333;
+   color: #fff;
+}
+.post{
+   background-color: #333333;
+   color: #fff;
+}
+a {
+   color: #fff;
+}
+body, input, select, textarea {
+   color: #fff;
+}
+input[type="checkbox"] + label,
+   input[type="radio"] + label {
+   color: #fff;
+}
+.blurb{
+   color: #fff;
+}
+#fichaEncabezadoInicio{
+   background-color: #343a40;
+   color: #fff;
+   border: 1px solid #6a6a6a;
+}
+#fichaCuerpoInicio, #ficha, #ficha4{
+   background-color: #333333;
+   color: #fff;
+   border: 1px solid #6a6a6a;
+}
+.mar, .blue, .help-block, label, strong, b{
+   color: #fff;
+}
+#footer{
+   background-color: #343a40;
+}
+.form-control, .form-control[disabled], .form-control[readonly]{
+   background-color: #454f59;
+   color: #fff;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+   border: 1px solid #ccc;
+}
+.sizeAdd, .sizeAddIcon, .marA{
+   color: #000;
+}
+input[type="checkbox"]:focus + label:before,
+   input[type="radio"]:focus + label:before {
+      border-color: #66afe9;
+      outline: 0;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+}
+
+input[type="text"]:focus,
+      input[type="password"]:focus,
+      input[type="email"]:focus,
+      input[type="tel"]:focus,
+      select:focus,
+      textarea:focus {
+         border-color: #66afe9;
+         outline: 0;
+         -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+         box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+      }
+#ficha0{
+  border: 1px solid #2c7890;
+}
+
+.alert > strong{
+   color: #000;
+}
